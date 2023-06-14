@@ -1,4 +1,5 @@
 <script setup>
+import AlsoLike from './components/AlsoLike.vue';
 import ExploreInnovation from './components/ExploreInnovation.vue';
 import HomeHero from './components/HomeHero.vue';
 import TheFooter from './components/TheFooter.vue';
@@ -9,8 +10,9 @@ import TheProducts from './components/TheProducts.vue';
 <template>
   <TheNavbar />
   <HomeHero />
-  <TheProducts />
   <ExploreInnovation />
+  <TheProducts />
+  <AlsoLike />
   <TheFooter />
 </template>
 

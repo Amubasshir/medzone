@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary text-white py-2 lg:py-5 px-2 lg:px-20">
+  <div class="bg-primary text-white py-4 lg:py-5 px-2 lg:px-20">
     <div class="top grid grid-cols-4 gap-2 pl-4 lg:pl-24">
       <div class="pb-6 col-span-2">
         <h2 class="text-sm font-semibold pb-4">YOUR LOGO</h2>

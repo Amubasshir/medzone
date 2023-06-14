@@ -1,12 +1,14 @@
 <template>
   <nav class="bg-primary">
-    <div class="container px-14 py-4 flex items-center justify-between">
+    <div class="container px-14 py-3 flex items-center justify-between">
       <div class="logo">
-        <h2 class="text-white font-medium">YOUR LOGO</h2>
+        <h2 class="text-white text-lg font-bold leading-6 tracking-wider">
+          YOUR LOGO
+        </h2>
       </div>
       <div class="text flex items-center justify-around space-x-6">
         <button
-          class="btn text-white bg-transparent px-5 py-1 border border-[#6D6E70] rounded-full"
+          class="btn text-white text-xs bg-transparent px-4 py-1 border border-[#334278] rounded-full"
         >
           Login
         </button>
@@ -15,7 +17,7 @@
           alt=""
           class="w-6 h-6"
         />
-        <div class="border border-[#6D6E70] rounded-full p-2">
+        <div class="border border-[#334278] rounded-full p-2">
           <img
             src="../assets/images/home/menu-bar.png"
             alt=""

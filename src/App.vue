@@ -1,11 +1,9 @@
-<script setup></script>
+<script setup>
+import TheNavbar from './components/TheNavbar.vue';
+</script>
 
 <template>
-  <header>
-    <h1 class="text-orange-600 text-5xl">welcome</h1>
-  </header>
-
-  <RouterView />
+  <TheNavbar />
 </template>
 
 <style scoped></style>

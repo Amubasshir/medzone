@@ -6,7 +6,7 @@
         background-image: url('https://i.ibb.co/0C5sQrw/dt-hero-banner.jpg');
       "
     >
-      <div class="pl-10 lg:pl-44">
+      <div class="pl-10 px-2 lg:px-0 lg:pl-44">
         <p class="text-white text-xs pt-10 pb-8 lg:pb-14">
           Home&nbsp;<span class="font-bold"> >&nbsp; Products</span>
         </p>

@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-primary">
-    <div class="container px-14 py-3 flex items-center justify-between">
+    <div class="container px-9 lg:px-14 py-3 flex items-center justify-between">
       <div class="logo">
         <h2 class="text-white text-lg font-bold leading-6 tracking-wider">
           YOUR LOGO

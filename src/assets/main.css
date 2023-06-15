@@ -14,3 +14,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* @layer utilities {
+  .border-gradient {
+    border-width: 1.5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, blue, rgb(40, 40, 163)) 1;
+    border-radius: 0.75rem;
+    overflow: hidden;
+  }
+} */

@@ -1,6 +1,6 @@
 <template>
   <div class="px-4 lg:px-24 py-2 lg:py-5 mb-5 lg:mb-10">
-    <h1 class="text-center text-4xl text-[#0F1A43] font-semibold py-4 pb-10">
+    <h1 class="text-center text-4xl text-[#] font-semibold py-4 pb-10">
       You might also like
     </h1>
     <div class="like-main px-4 lg:px-20 grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -21,7 +21,7 @@
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 25"
-                class="h-6 w-6 stroke-current"
+                class="h-5 w-5 stroke-current"
               >
                 <path
                   style="
@@ -56,7 +56,7 @@
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 25"
-                class="h-6 w-6 stroke-current"
+                class="h-5 w-5 stroke-current"
               >
                 <path
                   style="
@@ -95,7 +95,7 @@
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 25 25"
-                class="h-6 w-6 stroke-current"
+                class="h-5 w-5 stroke-current"
               >
                 <path
                   style="

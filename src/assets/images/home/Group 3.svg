@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>32950734-E8C2-44A0-B9AC-671E32B4C468</title>
+    <defs>
+        <circle id="path-1" cx="42" cy="42" r="42"></circle>
+        <filter x="-26.8%" y="-26.8%" width="153.6%" height="153.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.124841223 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Version_01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3.0.0_Products_VD_v1" transform="translate(-1018.000000, -870.000000)">
+            <g id="Press-releases" transform="translate(300.000000, 791.000000)">
+                <g id="Group-3" transform="translate(718.000000, 79.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="play" transform="translate(22.312500, 32.812500)" fill="#0F1A43" fill-rule="nonzero">
+                        <path d="M24.8606117,1.41752406 L24.8606117,16.0824759 C24.8606117,17.2007493 26.0921279,17.8802065 27.0405369,17.2715261 L38.5629991,9.93905015 C39.4406314,9.38699115 39.4406314,8.11300885 38.5629991,7.54679449 L27.0405369,0.228473905 C26.0921279,-0.38020653 24.8606117,0.2992507 24.8606117,1.41752406 Z" id="Path"></path>
+                        <path d="M0,1.41752406 L0,16.0824759 C0,17.2007493 1.23151623,17.8802065 2.17992528,17.2715261 L13.7023875,9.93905015 C14.5800197,9.38699115 14.5800197,8.11300885 13.7023875,7.54679449 L2.17992528,0.228473905 C1.23151623,-0.38020653 0,0.2992507 0,1.41752406 Z" id="Path" transform="translate(7.180306, 8.750000) scale(-1, 1) translate(-7.180306, -8.750000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

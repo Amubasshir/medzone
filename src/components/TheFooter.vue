@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary relative text-white py-4 lg:py-5 px-2 lg:px-20">
     <img
-      src="../assets/images/home/right-arrow-6421 copy 2.svg"
+      src="../assets/images/home/right-arrow.svg"
       alt=""
       class="absolute hidden lg:block top-[-22px] right-40 w-10 h-10"
     />

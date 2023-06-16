@@ -21,11 +21,13 @@
         <div
           class="flex flex-col space-y-2 lg:flex-row lg:space-y-0 lg:space-x-4"
         >
-          <button
-            class="bg-white px-7 py-3 font-bold text-[#0F1A43] rounded-full text-xs"
-          >
-            Our product areas
-          </button>
+          <RouterLink to="/products">
+            <button
+              class="bg-white px-7 py-3 font-bold text-[#0F1A43] rounded-full text-xs"
+            >
+              Our product areas
+            </button>
+          </RouterLink>
           <button
             class="bg-transparent rounded-full px-9 py-3 font-semibold text-xs text-white border-[1px] border-[#fff]"
           >
@@ -38,5 +40,6 @@
 </template>
 
 <script>
+import { RouterLink } from 'vue-router';
 export default {};
 </script>

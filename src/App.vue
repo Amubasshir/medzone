@@ -1,4 +1,13 @@
-<script setup>
+<script setup></script>
+
+<template>
+  <RouterView />
+</template>
+
+<style scoped></style>
+
+<!-- <script setup>
+import { RouterView } from 'vue-router';
 import AlsoLike from './components/AlsoLike.vue';
 import ExploreInnovation from './components/ExploreInnovation.vue';
 import HomeHero from './components/HomeHero.vue';
@@ -18,6 +27,7 @@ import TherapeuticArea from './components/TherapeuticArea.vue';
   <TherapeuticArea />
   <AlsoLike />
   <TheFooter />
+  <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped></style> -->

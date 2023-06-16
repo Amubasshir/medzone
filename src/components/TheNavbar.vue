@@ -2,9 +2,11 @@
   <nav class="bg-primary">
     <div class="container px-9 lg:px-14 py-3 flex items-center justify-between">
       <div class="logo">
-        <h2 class="text-white text-lg font-bold leading-6 tracking-wider">
-          YOUR LOGO
-        </h2>
+        <RouterLink to="/" active-class="active">
+          <h2 class="text-white text-lg font-bold leading-6 tracking-wider">
+            YOUR LOGO
+          </h2></RouterLink
+        >
       </div>
       <div class="text flex items-center justify-around space-x-6">
         <button

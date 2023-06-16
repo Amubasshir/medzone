@@ -23,7 +23,7 @@
             Learn more
           </button>
         </div>
-        <div class="image pl-3 flex items-center justify-center relative">
+        <div class="image pl-[6px] flex items-center justify-center relative">
           <img
             src="../assets/images/home/dt-Science & Innovation1.jpg"
             alt=""
@@ -37,7 +37,7 @@
       </div>
     </div>
     <div class="bottom">
-      <div class="grid grid-cols-2 gap-6">
+      <div class="grid grid-cols-2 gap-8">
         <div class="first">
           <img
             src="../assets/images/home/dt-teaser-06.jpg"

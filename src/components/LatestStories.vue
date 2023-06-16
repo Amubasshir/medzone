@@ -1,6 +1,6 @@
 <template>
-  <div class="px-[160px]">
-    <h1 class="text-5xl font-semibold text-[#0F1A43] my-10">Latest stories</h1>
+  <div class="px-2 lg:px-[160px] mt-20">
+    <h1 class="text-4xl font-semibold text-[#0F1A43]">Latest stories</h1>
     <div class="tab">
       <div class="container">
         <header class="">
@@ -17,19 +17,23 @@
         </header>
       </div>
     </div>
-    <div class="middle grid grid-cols-3 gap-6 pt-5">
+    <div class="middle grid grid-col-1 lg:grid-cols-3 gap-6 pt-1 lg:pt-5">
       <div class="first">
-        <img src="../assets/images/home/dt-teaser-05.jpg" alt="" />
-        <h3 class="text-xs font-bold text-[#0F1A43] pb-1">
-          Research and Development
-        </h3>
-        <p class="text-[10px] font-normal pb-3">June 02,2023</p>
-        <p class="text-[#0F1A43] text-2xl font-light py-3 leading-9">
-          Breathing new hope into pulmonary fibrosis research
+        <img
+          src="../assets/images/home/dt-teaser-05.jpg"
+          alt=""
+          class="pb-1 lg:pb-4"
+        />
+        <h3 class="text-xs font-bold text-[#0F1A43] pb-1">Patients</h3>
+        <p class="text-[10px] font-normal pb-2">June 02,2023</p>
+        <p
+          class="text-[#0F1A43] text-2xl tracking-tight font-light py-1 lg:py-3 leading-9"
+        >
+          Working to get more people with lung cancer closer to
         </p>
         <a href="#" class="flex items-center">
           <span
-            class="mr-3 text-xs border-b-[1.5px] border-gray-400 inline-block leading-[9px]"
+            class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
             >Read the story</span
           >
           <span>
@@ -40,9 +44,9 @@
             >
               <path
                 style="
-                  fill: none;
-                  stroke: #232326;
-                  stroke-width: 1;
+                  fill: #000;
+                  stroke: #000;
+                  stroke-width: 0.3;
                   stroke-linecap: round;
                   stroke-linejoin: round;
                 "
@@ -54,17 +58,21 @@
         </a>
       </div>
       <div class="second">
-        <img src="../assets/images/home/dt-teaser-05.jpg" alt="" />
-        <h3 class="text-xs font-bold text-[#0F1A43] pb-1">
-          Research and Development
-        </h3>
-        <p class="text-[10px] font-normal pb-3">June 02,2023</p>
-        <p class="text-[#0F1A43] text-2xl font-light py-3 leading-9">
-          Breathing new hope into pulmonary fibrosis research
+        <img
+          src="../assets/images/home/dt-teaser-08.jpg"
+          alt=""
+          class="pb-1 lg:pb-4"
+        />
+        <h3 class="text-xs font-bold text-[#0F1A43] pb-1">Patients</h3>
+        <p class="text-[10px] font-normal pb-2">June 02,2023</p>
+        <p
+          class="text-[#0F1A43] text-2xl font-light py-1 lg:py-3 tracking-tight leading-9"
+        >
+          The long and arduous journey to andometriosis
         </p>
         <a href="#" class="flex items-center">
           <span
-            class="mr-3 text-xs border-b-[1.5px] border-gray-400 inline-block leading-[9px]"
+            class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
             >Read the story</span
           >
           <span>
@@ -75,9 +83,9 @@
             >
               <path
                 style="
-                  fill: none;
-                  stroke: #232326;
-                  stroke-width: 1;
+                  fill: #000;
+                  stroke: #000;
+                  stroke-width: 0.3;
                   stroke-linecap: round;
                   stroke-linejoin: round;
                 "
@@ -89,17 +97,21 @@
         </a>
       </div>
       <div class="third">
-        <img src="../assets/images/home/dt-teaser-05.jpg" alt="" />
-        <h3 class="text-xs font-bold text-[#0F1A43] pb-1">
-          Research and Development
-        </h3>
-        <p class="text-[10px] font-normal pb-3">June 02,2023</p>
-        <p class="text-[#0F1A43] text-2xl font-light py-3 leading-9">
-          Breathing new hope into pulmonary fibrosis research
+        <img
+          src="../assets/images/home/dt-teaser-04.jpg"
+          alt=""
+          class="pb-1 lg:pb-4"
+        />
+        <h3 class="text-xs font-bold text-[#0F1A43] pb-1">Patients</h3>
+        <p class="text-[10px] font-normal pb-2">June 02,2023</p>
+        <p
+          class="text-[#0F1A43] text-2xl font-light py-1 lg:py-3 tracking-tight leading-9"
+        >
+          'Of course I forgot. But that's okay, that's who I am'
         </p>
         <a href="#" class="flex items-center">
           <span
-            class="mr-3 text-xs border-b-[1.5px] border-gray-400 inline-block leading-[9px]"
+            class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
             >Read the story</span
           >
           <span>
@@ -110,9 +122,9 @@
             >
               <path
                 style="
-                  fill: none;
-                  stroke: #232326;
-                  stroke-width: 1;
+                  fill: #000;
+                  stroke: #000;
+                  stroke-width: 0.3;
                   stroke-linecap: round;
                   stroke-linejoin: round;
                 "
@@ -124,20 +136,22 @@
         </a>
       </div>
     </div>
-    <div class="bottom grid grid-cols-2 pt-10">
-      <div class="flex gap-2">
+    <div
+      class="bottom grid grid-col-1 lg:grid-cols-2 pt-7 lg:pt-14 gap-8 lg:gap-2"
+    >
+      <div class="flex gap-6">
         <div>
           <img src="../assets/images/home/dt-teaser-09-1.jpg" alt="" />
         </div>
         <div>
           <h3 class="text-xs font-bold text-[#0F1A43] pb-1">Patients</h3>
           <p class="text-[10px] font-normal pb-3">April 11,2023</p>
-          <p class="text-[#0F1A43] text-2xl font-light py-3 leading-9">
+          <p class="w-60 text-[#0F1A43] text-2xl font-light py-3 leading-9">
             Giving more women with cancer an opportunity for
           </p>
           <a href="#" class="flex items-center">
             <span
-              class="mr-3 text-xs border-b-[1.5px] border-gray-400 inline-block leading-[9px]"
+              class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
               >Read the story</span
             >
             <span>
@@ -148,9 +162,9 @@
               >
                 <path
                   style="
-                    fill: none;
-                    stroke: #232326;
-                    stroke-width: 1;
+                    fill: #000;
+                    stroke: #000;
+                    stroke-width: 0.3;
                     stroke-linecap: round;
                     stroke-linejoin: round;
                   "
@@ -162,19 +176,19 @@
           </a>
         </div>
       </div>
-      <div class="flex gap-2">
+      <div class="flex gap-6">
         <div>
-          <img src="../assets/images/home/dt-teaser-09-1.jpg" alt="" />
+          <img src="../assets/images/home/dt-teaser-07.jpg" alt="" />
         </div>
         <div>
           <h3 class="text-xs font-bold text-[#0F1A43] pb-1">Patients</h3>
           <p class="text-[10px] font-normal pb-3">April 11,2023</p>
           <p class="text-[#0F1A43] text-2xl font-light py-3 leading-9">
-            Giving more women with cancer an opportunity for
+            A new era of healthcare in Africa
           </p>
           <a href="#" class="flex items-center">
             <span
-              class="mr-3 text-xs border-b-[1.5px] border-gray-400 inline-block leading-[9px]"
+              class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
               >Read the story</span
             >
             <span>
@@ -185,9 +199,9 @@
               >
                 <path
                   style="
-                    fill: none;
-                    stroke: #232326;
-                    stroke-width: 1;
+                    fill: #000;
+                    stroke: #000;
+                    stroke-width: 0.3;
                     stroke-linecap: round;
                     stroke-linejoin: round;
                   "
@@ -200,13 +214,20 @@
         </div>
       </div>
     </div>
+    <div class="flex justify-center pt-10 pb-5">
+      <button
+        class="bg-primary text-xs font-semibold text-white/90 rounded-full px-10 py-3 block"
+      >
+        Learn more
+      </button>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .container {
   height: 50px;
-  width: 1180px;
+  width: 820px;
   margin: 10px;
   border-radius: 5px;
 }
@@ -251,10 +272,10 @@ header {
   position: relative;
   display: inline-block;
   text-decoration: none;
-  padding: 22px;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 600;
+  padding-right: 50px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  font-weight: 500;
   color: #424f5a;
   text-align: center;
   outline: ;
@@ -280,7 +301,7 @@ header {
   position: absolute;
   z-index: 10;
   bottom: 0;
-  height: 2px;
+  height: 1.8px;
   background: #0a2d5b;
   display: block;
   left: 0;
@@ -293,8 +314,8 @@ header {
   width: 80px;
 }
 #tab2-tab.active ~ span.blue-bar {
-  left: 76px;
-  width: 96px;
+  left: 54px;
+  width: 86px;
 }
 #tab3-tab.active ~ span.blue-bar {
   left: 253px;

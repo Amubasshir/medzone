@@ -1,7 +1,7 @@
 <template>
-  <div class="container px-[160px] mt-16">
+  <div class="container px-4 lg:px-[160px] mt-3 lg:mt-16">
     <div class="top pb-5">
-      <div class="grid grid-cols-2 gap-2">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-2">
         <div class="text flex flex-col justify-center">
           <h3 class="text-sm font-bold pb-1 text-[#0F1A43]">Patients</h3>
           <p class="text-[10px] font-normal">June 2,2023</p>
@@ -47,13 +47,15 @@
           <h3 class="text-xs font-bold text-[#0F1A43] pb-1">
             Research and Development
           </h3>
-          <p class="text-[10px] font-normal pb-3">June 02,2023</p>
-          <p class="text-[#0F1A43] text-2xl font-light py-3 leading-9">
+          <p class="text-[10px] font-normal pb-2">June 02,2023</p>
+          <p
+            class="text-[#0F1A43] tracking-tight text-2xl font-light py-3 leading-9"
+          >
             Breathing new hope into pulmonary fibrosis research
           </p>
           <a href="#" class="flex items-center">
             <span
-              class="mr-3 text-xs border-b-[1.5px] border-gray-400 inline-block leading-[9px]"
+              class="mr-3 text-xs font-bold border-b-[1px] border-black inline-block leading-[10px]"
               >Read the story</span
             >
             <span>
@@ -79,20 +81,19 @@
         </div>
         <div class="second">
           <img
-            src="../assets/images/home/dt-teaser-06.jpg"
+            src="../assets/images/home/dt-teaser-10.jpg"
             alt=""
             class="pb-4"
           />
-          <h3 class="text-xs font-bold text-[#0F1A43] pb-1">
-            Research and Development
-          </h3>
-          <p class="text-[10px] font-normal pb-3">June 02,2023</p>
+          <h3 class="text-xs font-bold text-[#0F1A43] pb-1">Patients</h3>
+          <p class="text-[10px] font-normal pb-2">June 02,2023</p>
           <p class="text-[#0F1A43] text-2xl font-light py-3 leading-9">
-            Breathing new hope into pulmonary fibrosis research
+            Understanding the societal and economic impact of neurological
+            conditions globally
           </p>
           <a href="#" class="flex items-center">
             <span
-              class="mr-3 text-xs border-b-[1.5px] border-gray-400 inline-block leading-[9px]"
+              class="mr-3 text-xs font-bold border-b-[1px] border-black inline-block leading-[10px]"
               >Read the story</span
             >
             <span>

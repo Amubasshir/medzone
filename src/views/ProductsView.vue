@@ -1,4 +1,5 @@
 <script setup>
+import AlsoLike from '../components/AlsoLike.vue';
 import LatestStories from '../components/LatestStories.vue';
 import ProductsHero from '../components/ProductsHero.vue';
 import TheFooter from '../components/TheFooter.vue';
@@ -11,6 +12,7 @@ import ThePatients from '../components/ThePatients.vue';
   <ProductsHero />
   <ThePatients />
   <LatestStories />
+  <AlsoLike />
   <TheFooter />
 </template>
 

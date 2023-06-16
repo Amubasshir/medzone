@@ -1,6 +1,6 @@
 <template>
-  <div class="pl-24 mt-20">
-    <div class="top px-20">
+  <div class="pl-2 lg:pl-24 mt-2 lg:mt-20">
+    <div class="top hidden lg:block px-1 lg:px-20">
       <div class="">
         <header class="">
           <div id="material-tabs">
@@ -27,7 +27,7 @@
       </div>
       <!-- end container -->
     </div>
-    <div class="middle px-20">
+    <div class="middle px-12 lg:px-20">
       <h1 class="flex items-center text-5xl font-light py-10">
         Cancer
         <span
@@ -37,7 +37,7 @@
             class="pl-10 minus"
         /></span>
       </h1>
-      <div class="grid grid-cols-4 gap-4">
+      <div class="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-4">
         <div class="first">
           <img src="../assets/images/home/Bitmap.png" alt="" />
           <h3 class="text-sm font-semibold py-3">Avastin (bevacizumab)</h3>
@@ -313,8 +313,10 @@
         </div>
       </div>
     </div>
-    <div class="bottom pt-10 px-20">
-      <h1 class="flex items-center text-5xl font-light pb-10">
+    <div class="bottom pt-3 lg:pt-10 px-10 lg:px-20">
+      <h1
+        class="flex items-center text-4xl lg:text-5xl font-light pb-5 lg:pb-10"
+      >
         Cardiovascular
         <span class=""
           ><img
@@ -323,7 +325,9 @@
             class="pl-10 plus cursor-pointer"
         /></span>
       </h1>
-      <h1 class="flex items-center text-5xl font-light pb-10">
+      <h1
+        class="flex items-center text-4xl lg:text-5xl font-light pb-5 lg:pb-10"
+      >
         COVID-19
         <span
           ><img
@@ -332,7 +336,9 @@
             class="pl-10 plus cursor-pointer"
         /></span>
       </h1>
-      <h1 class="flex items-center text-5xl font-light pb-10">
+      <h1
+        class="flex items-center text-4xl lg:text-5xl font-light pb-5 lg:pb-10"
+      >
         Diabetes
         <span
           ><img
@@ -341,7 +347,9 @@
             class="pl-10 plus cursor-pointer"
         /></span>
       </h1>
-      <h1 class="flex items-center text-5xl font-light pb-10">
+      <h1
+        class="flex items-center text-4xl lg:text-5xl font-light pb-5 lg:pb-10"
+      >
         Immunology
         <span
           ><img
@@ -350,7 +358,9 @@
             class="pl-10 plus cursor-pointer"
         /></span>
       </h1>
-      <h1 class="flex items-center text-5xl font-light pb-10">
+      <h1
+        class="flex items-center text-4xl lg:text-5xl font-light pb-5 lg:pb-10"
+      >
         Neurodegeneration
         <span
           ><img

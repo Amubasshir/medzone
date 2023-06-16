@@ -6,6 +6,7 @@ import OurVaccines from './components/OurVaccines.vue';
 import TheFooter from './components/TheFooter.vue';
 import TheNavbar from './components/TheNavbar.vue';
 import TheProducts from './components/TheProducts.vue';
+import TherapeuticArea from './components/TherapeuticArea.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import TheProducts from './components/TheProducts.vue';
   <OurVaccines />
   <ExploreInnovation />
   <TheProducts />
+  <TherapeuticArea />
   <AlsoLike />
   <TheFooter />
 </template>

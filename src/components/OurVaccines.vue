@@ -48,7 +48,7 @@
         </p>
       </div>
       <img
-        src="../assets/images/home/Group 3.svg"
+        src="../assets/images/home/Group-3.svg"
         alt="Image"
         class="absolute overflow-hidden z-30 left-0 transform translate-x-56 -translate-y-1/2 top-1/2 w-14 h-14 cursor-pointer"
       />

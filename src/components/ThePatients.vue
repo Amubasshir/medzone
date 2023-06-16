@@ -24,12 +24,9 @@
           </button>
         </div>
         <div class="image pl-[6px] flex items-center justify-center relative">
+          <img src="../assets/images/home/dt-Scie-on.jpg" alt="" />
           <img
-            src="../assets/images/home/dt-Science & Innovation1.jpg"
-            alt=""
-          />
-          <img
-            src="../assets/images/home/Group 53 Copy@1x.png"
+            src="../assets/images/home/Group-5.png"
             alt=""
             class="rounded-none absolute w-20 h-20"
           />

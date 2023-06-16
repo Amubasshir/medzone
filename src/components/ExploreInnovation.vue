@@ -3,12 +3,12 @@
     <div class="left pl-2 lg:pl-20 relative">
       <div class="flex items-center justify-center pb-4 lg:pb-0">
         <img
-          src="../assets/images/home/dt-Science & Innovation.jpg"
+          src="../assets/images/home/dt-Science-nnovation.jpg"
           alt=""
           class="rounded-none max-h-[420px]"
         />
         <img
-          src="../assets/images/home/Group 53 Copy@1x.png"
+          src="../assets/images/home/Group-5.png"
           alt=""
           class="rounded-none absolute"
         />

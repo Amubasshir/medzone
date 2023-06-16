@@ -1,10 +1,13 @@
 <template>
   <div class="bg-primary relative text-white py-4 lg:py-5 px-2 lg:px-20">
-    <img
-      src="../assets/images/home/right-arrow.svg"
-      alt=""
-      class="absolute hidden lg:block top-[-22px] right-40 w-10 h-10"
-    />
+    <div class="arrowTop cursor-pointer">
+      <img
+        src="../assets/images/home/right-arrow.svg"
+        alt=""
+        class="absolute hidden lg:block top-[-22px] right-40 w-10 h-10"
+        @click="scrollToTop()"
+      />
+    </div>
 
     <div class="top grid grid-cols-4 gap-2 pl-4 lg:pl-24">
       <div class="pb-6 col-span-2">
@@ -97,3 +100,13 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+  },
+};
+</script>

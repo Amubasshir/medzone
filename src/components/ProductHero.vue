@@ -4,7 +4,7 @@
       class="bg-cover bg-center h-full w-full"
       style="background-image: url('https://i.ibb.co/CBZt1tg/dt-bg.jpg')"
     >
-      <div class="pl-1 lg:pl-10 px-2 lg:px-44">
+      <div class="px-4 lg:px-44">
         <div
           class="flex-col lg:flex lg:flex-row justify-between items-center pt-10 pb-9 lg:pb-16"
         >

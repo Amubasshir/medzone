@@ -12,7 +12,7 @@ MedZone is a website that provides information and resources related to medical 
 
 ## Prerequisites
 
--Node.js (version 12 or above)
+-Node.js (version 12 or above) <br>
 -npm (Node Package Manager)
 
 ## Project Setup

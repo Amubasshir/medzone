@@ -10,10 +10,7 @@
         >
           <p class="text-white text-xs">
             Home&nbsp;<span class="font-semibold"> > &nbsp; Our stories</span>
-            <span>
-              &nbsp; > Working to get more people with lung cancer closer to
-              cure</span
-            >
+            <span> &nbsp; > The long and arduous journey to andometriosis</span>
           </p>
           <p class="text-white text-[10px] font-light flex items-center">
             <span>
@@ -33,8 +30,7 @@
         <p
           class="text-[#fff] text-3xl lg:text-4xl leading-9 lg:leading-[46px] font-light pb-5"
         >
-          Working to Get More People with Lung Cancer
-          <br class="hidden lg:block" />Closer to a Cure
+          The long and arduous journey to andometriosis
         </p>
       </div>
     </div>

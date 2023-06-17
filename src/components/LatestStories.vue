@@ -31,31 +31,33 @@
         >
           Working to get more people with lung cancer closer to
         </p>
-        <a href="#" class="flex items-center">
-          <span
-            class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
-            >Read the story</span
-          >
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 25 25"
-              class="h-5 w-5 stroke-current"
+        <RouterLink to="/details">
+          <a href="#" class="flex items-center">
+            <span
+              class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
+              >Read the story</span
             >
-              <path
-                style="
-                  fill: #000;
-                  stroke: #000;
-                  stroke-width: 0.3;
-                  stroke-linecap: round;
-                  stroke-linejoin: round;
-                "
-                d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                data-name="Right"
-              />
-            </svg>
-          </span>
-        </a>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 25 25"
+                class="h-5 w-5 stroke-current"
+              >
+                <path
+                  style="
+                    fill: #000;
+                    stroke: #000;
+                    stroke-width: 0.3;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                  "
+                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                  data-name="Right"
+                />
+              </svg>
+            </span>
+          </a>
+        </RouterLink>
       </div>
       <div class="second">
         <img
@@ -70,31 +72,33 @@
         >
           The long and arduous journey to andometriosis
         </p>
-        <a href="#" class="flex items-center">
-          <span
-            class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
-            >Read the story</span
-          >
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 25 25"
-              class="h-5 w-5 stroke-current"
+        <RouterLink to="/details2">
+          <a href="#" class="flex items-center">
+            <span
+              class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
+              >Read the story</span
             >
-              <path
-                style="
-                  fill: #000;
-                  stroke: #000;
-                  stroke-width: 0.3;
-                  stroke-linecap: round;
-                  stroke-linejoin: round;
-                "
-                d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                data-name="Right"
-              />
-            </svg>
-          </span>
-        </a>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 25 25"
+                class="h-5 w-5 stroke-current"
+              >
+                <path
+                  style="
+                    fill: #000;
+                    stroke: #000;
+                    stroke-width: 0.3;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                  "
+                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                  data-name="Right"
+                />
+              </svg>
+            </span>
+          </a>
+        </RouterLink>
       </div>
       <div class="third">
         <img
@@ -109,31 +113,33 @@
         >
           'Of course I forgot. But that's okay, that's who I am'
         </p>
-        <a href="#" class="flex items-center">
-          <span
-            class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
-            >Read the story</span
-          >
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 25 25"
-              class="h-5 w-5 stroke-current"
+        <RouterLink to="/details3">
+          <a href="#" class="flex items-center">
+            <span
+              class="mr-3 text-xs border-b-[1.3px] font-bold border-black inline-block leading-[10px]"
+              >Read the story</span
             >
-              <path
-                style="
-                  fill: #000;
-                  stroke: #000;
-                  stroke-width: 0.3;
-                  stroke-linecap: round;
-                  stroke-linejoin: round;
-                "
-                d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
-                data-name="Right"
-              />
-            </svg>
-          </span>
-        </a>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 25 25"
+                class="h-5 w-5 stroke-current"
+              >
+                <path
+                  style="
+                    fill: #000;
+                    stroke: #000;
+                    stroke-width: 0.3;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                  "
+                  d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z"
+                  data-name="Right"
+                />
+              </svg>
+            </span>
+          </a>
+        </RouterLink>
       </div>
     </div>
     <div
@@ -224,6 +230,10 @@
   </div>
 </template>
 
+<script>
+import { RouterLink } from 'vue-router';
+export default {};
+</script>
 <style scoped>
 .container {
   height: 50px;

@@ -1,16 +1,29 @@
-# medzone
+# Medzone
 
-This template should help get you started developing with Vue 3 in Vite.
+MedZone is a website that provides information and resources related to medical services and healthcare.It's modern, user-friendly and responsive that provides users elegant experience.
 
-## Recommended IDE Setup
+## Tools
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Vue**: Vue.js is a popular JavaScript framework for building user interfaces. It provides a responsive and interactive user experience.
+- **Vue Router**: Vue Router is used for routing, even dynamic route can easily implement.
+- **Tailwind**: Tailwind CSS is a utility-first CSS framework that provides a set of predefined utility classes. It allows developers to quickly build custom user interfaces by composing classes together.
 
-## Customize configuration
+# Getting Started
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Prerequisites
+
+-Node.js (version 12 or above)
+-npm (Node Package Manager)
 
 ## Project Setup
+
+```sh
+git clone https://github.com/Amubasshir/medzone
+```
+
+```sh
+cd medzone
+```
 
 ```sh
 npm install
@@ -27,3 +40,11 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Contributing
+
+Contributions to MedZone are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Please ensure to follow the established coding guidelines and provide clear descriptions for your contributions.
+
+## Links
+
+[live site](https://github.com/Amubasshir/medzone)

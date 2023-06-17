@@ -51,13 +51,18 @@
     >
       <swiper-slide>
         <div
-          class="single-card-first h-40 lg:h-48 min-w-[170px] lg:min-w-[200px] border-[1.5px] shadow-indigo-50 shadow-sm border-[#4e6acf] bg-border-gradient-to-r from-red to-black rounded-xl"
+          class="relative single-card-first h-40 lg:h-48 min-w-[170px] lg:min-w-[200px] border-[1.5px] shadow-indigo-50 shadow-sm border-[#4e6acf] bg-border-gradient-to-r from-red to-black rounded-xl"
         >
           <h1 class="text-5xl font-normal pl-4 pb-4 pt-2">15</h1>
           <p class="text-xs font-normal pl-4 text-gray-900 px-2">
             vaccines manufacturing site-enabling a supply capability to produce
             and deliver 500 million vaccine doses in 2022
           </p>
+          <img
+            src="../assets/images/home/Group-3.svg"
+            alt="Image"
+            class="absolute overflow-hidden z-30 left-0 transform translate-x-56 -translate-y-1/2 top-1/2 w-14 h-14 cursor-pointer hidden hover:block"
+          />
         </div>
       </swiper-slide>
       <swiper-slide>
@@ -128,6 +133,9 @@ export default {
 </script>
 
 <style>
+.single-card-first:hover img {
+  display: block;
+}
 @media (max-width: 640px) {
   .mySwiper {
     slidesperview: '2';

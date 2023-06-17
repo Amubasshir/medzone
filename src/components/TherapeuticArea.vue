@@ -1,8 +1,8 @@
 <template>
   <div class="pl-2 lg:pl-24 mt-2 lg:mt-20">
     <div class="top hidden lg:block px-1 lg:px-20">
-      <div class="">
-        <header class="">
+      <div class="tab">
+        <header class="container">
           <div id="material-tabs">
             <a id="tab1-tab" href="#tab1">A-Z:ALL</a>
             <a id="tab2-tab" href="#tab2" class="active"
@@ -12,20 +12,7 @@
             <span class="blue-bar"></span>
           </div>
         </header>
-
-        <!-- <div class="tab-content">
-          <div id="tab1">
-            <p>First tab content</p>
-          </div>
-          <div id="tab2">
-            <p>Second tab content.</p>
-          </div>
-          <div id="tab3">
-            <p>Third tab content.</p>
-          </div>
-        </div> -->
       </div>
-      <!-- end container -->
     </div>
     <div class="middle px-12 lg:px-20">
       <h1 class="flex items-center text-5xl font-light py-10">
@@ -320,13 +307,13 @@
           class="title block font-bold bg-white p-4 cursor-pointer"
           for="toggle2"
         >
-          <h1 class="flex items-center text-5xl font-light py-10">
+          <h1 class="flex items-center text-5xl font-light py-1">
             Cardiovascular
             <span @click="toggleImages2" v-if="!showMinusImage">
               <img
                 src="../assets/images/home/Plus.svg"
                 alt=""
-                class="pl-10 plus"
+                class="pl-2 lg:pl-10 plus"
               />
             </span>
             <span @click="toggleImages2" v-if="showMinusImage">
@@ -718,7 +705,7 @@
               <img
                 src="../assets/images/home/Plus.svg"
                 alt=""
-                class="pl-10 plus"
+                class="pl-1 lg:pl-10 plus"
               />
             </span>
             <span @click="toggleImages2" v-if="showMinusImage">
@@ -850,34 +837,16 @@ export default {
   max-height: 0;
   transition: max-height 0.2s;
 }
-/*
+
 .toggle1:checked + .title::before {
   transform: rotate(90deg) !important;
 }
 .toggle2:checked + .title::before {
   transform: rotate(90deg) !important;
-} */
-
-input[type='checkbox'].toggle1:checked + .title::before {
-  transform: rotate(90deg) !important;
-}
-input[type='checkbox'].toggle2:checked + .title::before {
-  transform: rotate(90deg) !important;
-}
-
-.container {
-  height: 500px;
-  width: 580px;
-  margin: 10px;
-  border-radius: 5px;
 }
 
 header {
   position: relative;
-}
-
-.hide {
-  display: none;
 }
 
 .tab-content {

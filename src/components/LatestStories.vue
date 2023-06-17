@@ -232,7 +232,35 @@
 
 <script>
 import { RouterLink } from 'vue-router';
-export default {};
+export default {
+  mounted() {
+    const tabs = document.querySelectorAll('#material-tabs a');
+    const tabContents = document.querySelectorAll('#material-tabs > div');
+
+    tabs.forEach((tab, index) => {
+      tab.addEventListener('click', (event) => {
+        event.preventDefault();
+        this.activateTab(index, tabs, tabContents);
+      });
+    });
+
+    this.activateTab(0, tabs, tabContents);
+  },
+  methods: {
+    activateTab(index, tabs, tabContents) {
+      tabs.forEach((tab) => {
+        tab.classList.remove('active');
+      });
+
+      tabContents.forEach((tabContent) => {
+        tabContent.style.display = 'none';
+      });
+
+      tabs[index].classList.add('active');
+      tabContents[index].style.display = 'block';
+    },
+  },
+};
 </script>
 <style scoped>
 .container {
